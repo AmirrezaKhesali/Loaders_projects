@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.loader1 {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    border: 5px solid #235E95;
+    border-radius: 4px;
+    animation: loading 3s ease-out infinite;
+}
+
+.loader2 {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    border: 5px solid #113E67;
+    border-radius: 4px;
+    animation: loading 3s ease-out infinite;
+}
+
+ @keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
